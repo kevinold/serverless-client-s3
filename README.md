@@ -22,6 +22,8 @@ plugins:
   - serverless-client-s3
  custom:
    client:
+     baseDir: testapp # defaults to 'client'
+     distDir: build   # defaults to 'dist'
      bucketName: whatsbertdoing-client
 ```
 
